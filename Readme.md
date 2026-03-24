@@ -4,7 +4,7 @@ This project is an AI-powered chatbot that can:
 •	Read PDF documents
 •	Answer questions using Retrieval-Augmented Generation (RAG)
 •	Provide accurate, context-aware responses
-________________________________________
+
 Features
 •	 PDF Upload
 •	 Text Extraction
@@ -13,14 +13,14 @@ Features
 •	 Vector Search (FAISS)
 •	 Question Answering
 •	 Document Summarization
-________________________________________
+
 Tech Stack
 •	Frontend: Streamlit
 •	Backend: FastAPI
 •	LLM: Ollama (Llama3.2)
 •	Embeddings: Sentence Transformers
 •	Vector DB: FAISS
-________________________________________
+
 Project Structure
 backend/
   └── app/
@@ -28,21 +28,22 @@ backend/
 
 frontend/
   └── app.py
-________________________________________
+
 How to Run
 Clone the repository
 git clone https://github.com/your-username/llm-pdf-rag-project.git
 cd llm-pdf-rag-project
-________________________________________Run Backend
+
+Run Backend
 cd backend
 pip install -r requirements.txt
 uvicorn app.main:app --reload
-________________________________________
+
 Run Frontend
 cd frontend
 pip install -r requirements.txt
 streamlit run app.py
-________________________________________
+
 How It Works
 1.	User uploads a PDF
 2.	Text is extracted and split into chunks
@@ -50,7 +51,7 @@ How It Works
 4.	Stored in FAISS vector database
 5.	Relevant chunks are retrieved based on query
 6.	LLM generates a context-based answer
-________________________________________
+
 Future Improvements
 •	Multi-PDF support
 •	Chat history
