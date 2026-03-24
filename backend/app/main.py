@@ -12,7 +12,7 @@ from sentence_transformers import SentenceTransformer
 app = FastAPI()
 
 # --- SETTINGS ---
-PDF_FILE = r"D:\Guvi_project\chatbot\Internship Contracts-Ethara AI GIG workforce (1).pdf"
+PDF_FILE = r"your_document.pdf"
 LLM_MODEL = 'llama3.2'
 EMBED_MODEL = 'all-MiniLM-L6-v2'
 
